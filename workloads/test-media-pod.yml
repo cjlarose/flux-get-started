@@ -19,4 +19,4 @@ spec:
   volumes:
     - name: nfs-pvc
       persistentVolumeClaim:
-        claimName: media-claim
+        claimName: pv-nfs-client-provisioner-media
