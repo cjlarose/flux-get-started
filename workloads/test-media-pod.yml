@@ -2,6 +2,7 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: test-pod
+  namespace: demo
 spec:
   containers:
   - name: test-pod
